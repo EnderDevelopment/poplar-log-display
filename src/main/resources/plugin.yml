@@ -1,0 +1,13 @@
+name: PoplarDisplay
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+commands:
+  poplarlog:
+    description: Gives you a poplar log display block.
+    usage: /poplarlog
+    permission: poplardisplay.give
+permissions:
+  poplardisplay.give:
+    description: Allows the player to receive a poplar log display block.
+    default: true
